@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        glacial: ["var(--font-glacial)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

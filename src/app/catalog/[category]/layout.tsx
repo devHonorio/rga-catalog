@@ -16,7 +16,7 @@ export default async function Layout({ children, params }: Layout) {
   const category = defaultParams({ param: paramCategory, data: categorysName });
 
   return (
-    <div className="flex flex-col gap-4" id="categorys">
+    <div className="flex flex-col gap-8" id="categorys">
       <div className="flex flex-wrap gap-4">
         {categorysName.map((name) => (
           <CategoryButton key={name} name={name} active={name === category} />
@@ -25,7 +25,7 @@ export default async function Layout({ children, params }: Layout) {
 
       <Link
         href="#categorys"
-        className="shadow-md w-20 h-20 rounded-full fixed bg-white justify-center items-center flex right-10 bottom-14"
+        className="fixed bottom-14 right-10 flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-md"
       >
         ⬆️
       </Link>
