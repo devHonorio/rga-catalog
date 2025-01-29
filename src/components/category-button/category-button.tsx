@@ -2,7 +2,7 @@ import Link from "next/link";
 
 interface CategoryButtonProps {
   name: string;
-  active: Boolean;
+  active: boolean;
 }
 
 export const CategoryButton = ({ name, active }: CategoryButtonProps) => {

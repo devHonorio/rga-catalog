@@ -444,7 +444,7 @@ export const dataCatalog = {
   ],
 };
 
-const recheios = [
+export const recheios = [
   {
     id: "abacaxi",
     type: "recheio",

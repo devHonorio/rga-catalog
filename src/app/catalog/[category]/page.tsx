@@ -10,7 +10,7 @@ interface CategoryProps {
 const categorysName = Object.keys(dataCatalog);
 
 export default async function Category({ params }: CategoryProps) {
-  let { category: paramCategory } = await params;
+  const { category: paramCategory } = await params;
 
   const category = defaultParams({
     param: paramCategory,

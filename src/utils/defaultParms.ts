@@ -1,5 +1,3 @@
-import { CategoryType } from "@/types";
-
 interface ParamsProps {
   param: string;
   data: string[];
