@@ -173,7 +173,7 @@ export const dataCatalog = {
     },
     {
       id: "camafeu",
-      title: "Camafeu",
+      title: "Camafeu de Nozes",
       price: 1.5,
       image: "/cardapio/doces/finos/camafeu.jpeg",
       category: "docesFinos",
@@ -442,7 +442,7 @@ export const dataCatalog = {
       min: 1,
     },
   ],
-};
+} as const;
 
 export const recheios = [
   {
