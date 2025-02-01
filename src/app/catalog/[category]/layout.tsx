@@ -1,5 +1,5 @@
 import { CategoryButton } from "@/components/category-button";
-import { dataCatalog } from "@/data";
+import { categorysName } from "@/data";
 import { defaultParams } from "@/utils";
 import Link from "next/link";
 
@@ -7,8 +7,6 @@ interface Layout {
   children: React.ReactNode;
   params: Promise<{ category: string }>;
 }
-
-export const categorysName = Object.keys(dataCatalog);
 
 export default async function Layout({ children, params }: Layout) {
   const { category: paramCategory } = await params;

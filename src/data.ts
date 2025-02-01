@@ -662,3 +662,5 @@ export const recheios = [
     pesado: false,
   },
 ];
+
+export const categorysName = Object.keys(dataCatalog);

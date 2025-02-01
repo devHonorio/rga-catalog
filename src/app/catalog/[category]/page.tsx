@@ -1,8 +1,7 @@
 import { ProductCard } from "@/components/product-card";
-import { dataCatalog, recheios } from "@/data";
+import { categorysName, dataCatalog, recheios } from "@/data";
 import { CategoryType } from "@/types";
 import { defaultParams, toBRL } from "@/utils";
-import { categorysName } from "./layout";
 import {
   Card,
   CardDescription,
