@@ -3,9 +3,14 @@ import Image from "next/image";
 interface Children {
   children: React.ReactNode;
 }
-export const Card = ({ children }: Children) => {
+interface CardProps extends Children {
+  className?: string;
+}
+export const Card = ({ children, className }: CardProps) => {
   return (
-    <div className="group flex h-fit w-80 flex-col gap-4 rounded-[3rem] bg-white p-8">
+    <div
+      className={`group flex h-fit w-80 flex-col gap-4 rounded-[3rem] bg-white p-8 ${className}`}
+    >
       {children}
     </div>
   );
