@@ -13,13 +13,12 @@ export default async function Layout({ children, params }: Layout) {
 
   const category = defaultParams({
     param: paramCategory,
-    data: ["Recheios", ...categorysName],
+    data: categorysName,
   });
 
   return (
     <div className="flex flex-col gap-8" id="categorys">
       <div className="flex flex-wrap gap-4">
-        <CategoryButton name="Recheios" active={category === "Recheios"} />
         {categorysName.map((name) => (
           <CategoryButton key={name} name={name} active={name === category} />
         ))}

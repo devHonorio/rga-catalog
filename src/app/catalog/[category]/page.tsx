@@ -1,14 +1,7 @@
 import { ProductCard } from "@/components/product-card";
-import { categorysName, dataCatalog, recheios } from "@/data";
+import { categorysName, dataCatalog, rullesProducts } from "@/data";
 import { CategoryType } from "@/types";
-import { defaultParams, toBRL } from "@/utils";
-import {
-  Card,
-  CardDescription,
-  CardImage,
-  CardTitle,
-  CradTextContrast,
-} from "@/components/card";
+import { defaultParams } from "@/utils";
 
 interface CategoryProps {
   params: Promise<{ category: string }>;
@@ -19,35 +12,36 @@ export default async function Category({ params }: CategoryProps) {
 
   const category = defaultParams({
     param: paramCategory,
-    data: ["Recheios", ...categorysName],
+    data: categorysName,
   }) as CategoryType;
 
-  const categoryRecheiosTrue = category === "Recheios";
-  const products = !categoryRecheiosTrue ? dataCatalog[category] : [];
+  const products = dataCatalog[category];
+  const rulles = rullesProducts[category] || [];
   return (
-    <div className="flex flex-wrap justify-center gap-14">
-      {categoryRecheiosTrue &&
-        recheios.map(({ id, image, name, price }) => (
-          <Card key={id}>
-            <CardImage image={image} title={name} />
-            <CardTitle>{name}</CardTitle>
+    <div className="flex flex-col gap-10">
+      {rulles.length > 0 && (
+        <div className="mx-auto">
+          {rulles.map((item) => (
+            <div key={item} className="flex gap-2">
+              <div>-</div> <div>{item}</div>
+            </div>
+          ))}
+        </div>
+      )}
 
-            <CardDescription>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis tenetur odio eligendi numquam praesentium culpa vel
-              alias fuga cupiditate! Quibusdam ipsam porro debitis sapiente a
-              dolorem impedit beatae aliquam mollitia?
-            </CardDescription>
-
-            <CradTextContrast>{toBRL(price)}/kg</CradTextContrast>
-          </Card>
-        ))}
-
-      {products.map(({ id, price, image, title }) => {
-        return (
-          <ProductCard key={id} title={title} image={image} price={price} />
-        );
-      })}
+      <div className="flex flex-wrap justify-center gap-14">
+        {products.map(({ id, price, image, title, description }) => {
+          return (
+            <ProductCard
+              key={id}
+              title={title}
+              image={image}
+              price={price}
+              description={description}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

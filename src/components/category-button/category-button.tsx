@@ -13,7 +13,7 @@ export const CategoryButton = ({ name, active }: CategoryButtonProps) => {
       data-active={active}
       className="rounded-full bg-white px-4 py-2 font-semibold capitalize text-gray-700 data-[active=true]:bg-red-600 data-[active=true]:text-white"
     >
-      {name}
+      {name.replaceAll("-", " ")}
     </Link>
   );
 };

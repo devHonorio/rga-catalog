@@ -1,3 +1,3 @@
 import { dataCatalog } from "@/data";
 
-export type CategoryType = keyof typeof dataCatalog | "Recheios";
+export type CategoryType = keyof typeof dataCatalog;
