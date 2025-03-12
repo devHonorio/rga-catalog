@@ -11,17 +11,21 @@ interface ProductCardProps {
   title: string;
   image: string;
   price: number;
+  description?: string;
 }
-export const ProductCard = ({ title, image, price }: ProductCardProps) => {
+export const ProductCard = ({
+  title,
+  image,
+  price,
+  description,
+}: ProductCardProps) => {
   return (
     <Card>
-      <CardImage image={image} title={title} />
+      {image && <CardImage image={image} title={title} />}
 
       <CardTitle>{title}</CardTitle>
 
-      <CardDescription>
-        Creme com nozes em pedaços, cobertura de chocolate branco e noz dourada
-      </CardDescription>
+      {description && <CardDescription>{description}</CardDescription>}
 
       <CradTextContrast>{toBRL(price)}</CradTextContrast>
     </Card>
