@@ -9,7 +9,7 @@ import {
 
 interface ProductCardProps {
   title: string;
-  image: string;
+  image?: string;
   price: number;
   description?: string;
 }
