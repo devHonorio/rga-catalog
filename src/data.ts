@@ -3,7 +3,7 @@ interface DataCatalogProps {
     id: string;
     title: string;
     price: number;
-    image: string;
+    image?: string;
     description?: string;
   }[];
 }
@@ -109,67 +109,64 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "nozes",
       title: "Strogonoff nozes",
-      price: 38,
+      price: 42,
       image: "/cardapio/bolos/recheios/nozes.jpg",
     },
     {
       id: "baba-de-moca",
       title: "Baba de moça",
 
-      price: 38,
+      price: 42,
       image: "/cardapio/bolos/recheios/baba-de-moca.jpg",
     },
     {
       id: "leite-ninho",
       title: "Leite ninho",
 
-      price: 38,
+      price: 42,
       image: "/cardapio/bolos/recheios/leite-ninho.jpg",
     },
     {
       id: "prestigio",
       title: "Prestígio",
-      price: 38,
+      price: 42,
       image: "/cardapio/bolos/recheios/prestigio.png",
     },
     {
       id: "quatro-leite",
       title: "Quatro leite",
-      price: 38,
+      price: 42,
       image: "/cardapio/bolos/recheios/quatro-leite.png",
     },
     {
       id: "avela",
       title: "Avelã",
 
-      price: 38,
+      price: 42,
       image: "/cardapio/bolos/recheios/avela.png",
     },
     {
       id: "alpino",
       title: "Alpino",
-      price: 38,
+      price: 42,
       image: "/cardapio/bolos/recheios/alpino.jpg",
     },
     {
       id: "ameixa",
       title: "Strogonoff de ameixa",
 
-      price: 38,
-      image: "/cardapio/bolos/recheios/avela.png",
+      price: 42,
     },
     {
       id: "creme-de-maracuja",
       title: "Creme de maracujá",
       price: 42,
-      image: "/cardapio/bolos/recheios/sensacao-de-maracuja.jpeg",
     },
     {
       id: "damasco",
       title: "Strogonoff de damasco",
 
-      price: 38,
-      image: "/cardapio/bolos/recheios/avela.png",
+      price: 42,
     },
     {
       id: "ouro-branco",
@@ -188,7 +185,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "crocante",
       title: "Crocante de nozes com suspiro",
       price: 42,
-      image: "/cardapio/bolos/recheios/sonho-de-valsa.png",
     },
     {
       id: "bolo-da-casa",
@@ -202,7 +198,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "bolo-str-morango",
       title: "Bolo de strogonoff de morango",
       price: 50,
-      image: "/cardapio/bolos/recheios/bolo-da-casa.jpg",
     },
     {
       id: "marta-rocha",
@@ -240,7 +235,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "bolo-de-fuba",
       title: "Bolo de fubá",
       price: 45,
-      image: "/cardapio/bolos/bolos-de-forma/bolo-de-cenoura.jpeg",
       description:
         "Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
     },
@@ -248,7 +242,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "bolo-formigueiro",
       title: "Bolo formigueiro",
       price: 45,
-      image: "/cardapio/bolos/bolos-de-forma/bolo-de-cenoura.jpeg",
       description:
         "Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
     },
@@ -256,14 +249,12 @@ export const dataCatalog: DataCatalogProps = {
       id: "bolo-doi-amores",
       title: "Bolo de cenoura",
       price: 45,
-      image: "/cardapio/bolos/bolos-de-forma/bolo-de-cenoura.jpeg",
       description: "Cobertura preta e branca",
     },
     {
       id: "nega-maluca-recheada",
       title: "Nega maluca recheada",
       price: 55,
-      image: "/cardapio/bolos/bolos-de-forma/nega-maluca-recheada.jpeg",
       description:
         "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
     },
@@ -271,7 +262,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "bolo-de-cenourar",
       title: "Bolo de cenoura recheado",
       price: 55,
-      image: "/cardapio/bolos/bolos-de-forma/bolo-de-cenoura.jpeg",
       description:
         "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
     },
@@ -279,7 +269,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "bolo-de-fubar",
       title: "Bolo de fubá recheado",
       price: 55,
-      image: "/cardapio/bolos/bolos-de-forma/bolo-de-cenoura.jpeg",
       description:
         "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
     },
@@ -287,7 +276,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "bolo-formigueiror",
       title: "Bolo formigueiro recheado",
       price: 55,
-      image: "/cardapio/bolos/bolos-de-forma/bolo-de-cenoura.jpeg",
       description:
         "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
     },
@@ -295,7 +283,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "bolo-dois-amoresr",
       title: "Bolo dois amores recheado",
       price: 45,
-      image: "/cardapio/bolos/bolos-de-forma/bolo-de-cenoura.jpeg",
       description:
         "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Cobertura preta e branca",
     },
@@ -341,7 +328,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "doces-gourmet-misto",
       title: "Doces gourmet misto",
       price: 0.9,
-      image: "/cardapio/doces/gourmet/doces-gourmet-mistos.jpeg",
     },
     {
       id: "leite-ninho-com-nutella",
@@ -390,19 +376,16 @@ export const dataCatalog: DataCatalogProps = {
       id: "brigadeiro-branco-amarelo",
       title: "Brigadeiro branco amarelo",
       price: 0.9,
-      image: "/cardapio/doces/gourmet/brigadeiro-micanga-azul.jpeg",
     },
     {
       id: "brigadeiro-branco-vermelho",
       title: "Brigadeiro branco vermelho",
       price: 0.9,
-      image: "/cardapio/doces/gourmet/brigadeiro-micanga-azul.jpeg",
     },
     {
       id: "brigadeiro-branco-micanga-colorida",
-      title: "Brigadeiro branco com miçanga cororida",
+      title: "Brigadeiro branco cororido",
       price: 0.9,
-      image: "/cardapio/doces/gourmet/brigadeiro-micanga-azul.jpeg",
     },
   ],
   tortinhas: [
@@ -410,7 +393,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "tortinha-de-brigadeiro",
       title: "Tortinha de brigadeiro",
       price: 0.85,
-      image: "/cardapio/doces/gourmet/tmorango.png",
     },
     {
       id: "tortinha-de-morango",
@@ -428,7 +410,6 @@ export const dataCatalog: DataCatalogProps = {
       id: "tortinha-de-brigadeiroc",
       title: "Tortinha de brigadeiro com cereja",
       price: 0.85,
-      image: "/cardapio/doces/gourmet/tmorango.png",
     },
   ],
   finos: [
@@ -584,32 +565,68 @@ export const dataCatalog: DataCatalogProps = {
       id: "coca-cola-2l",
       title: "Coca cola 2L",
       price: 13,
-      image: "/cardapio/bebidas/coca-2l.jpg",
+      image: "/cardapio/bebidas/coca2L.png",
     },
     {
       id: "sprite-2l",
       title: "Sprite 2L",
       price: 10,
-      image: "/cardapio/bebidas/sprite-2l.jpg",
+      image: "/cardapio/bebidas/sprite2L.png",
     },
     {
       id: "kuat-2l",
       title: "Kuat 2L",
       price: 10,
-      image: "/cardapio/bebidas/kuat-2l.png",
+      image: "/cardapio/bebidas/kuat2L.png",
+    },
+    {
+      id: "fanta-2l",
+      title: "Fanta laranja 2L",
+      price: 10,
+      image: "/cardapio/bebidas/fantalaranja2L.png",
+    },
+    {
+      id: "schweppes2l",
+      title: "Schweppes 1,5L",
+      price: 10,
+      image: "/cardapio/bebidas/schweppes2l.png",
     },
 
     {
       id: "coca-lata-350ml",
       title: "Coca lata 350ml",
       price: 4.5,
-      image: "/cardapio/bebidas/coca-lata-350ml.jpg",
+      image: "/cardapio/bebidas/colalata.png",
+    },
+    {
+      id: "monsterabsolutely",
+      title: "Monster absolutely 475ml",
+      price: 12,
+      image: "/cardapio/bebidas/monsterabsolutely.png",
+    },
+    {
+      id: "monsterenergy",
+      title: "Monster energy 475ml",
+      price: 12,
+      image: "/cardapio/bebidas/monsterenergy.png",
+    },
+    {
+      id: "monsterzeroultra",
+      title: "Monster zero ultra 475ml",
+      price: 12,
+      image: "/cardapio/bebidas/monsterzeroultra.png",
+    },
+    {
+      id: "agua-com-gas510ml",
+      title: "Água com gás 510ml",
+      price: 2.5,
+      image: "/cardapio/bebidas/aguacomgas.png",
     },
     {
       id: "agua-510ml",
       title: "Água 510ml",
-      price: 2,
-      image: "/cardapio/bebidas/agua-250ml.jpg",
+      price: 2.5,
+      image: "/cardapio/bebidas/aguasemgas.png",
     },
   ],
 };
