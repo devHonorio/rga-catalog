@@ -435,7 +435,7 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "bombom-de-uva",
       title: "Bombom de uva",
-      price: 1.5,
+      price: 2,
       image: "/cardapio/doces/finos/uva.png",
     },
 
