@@ -13,7 +13,7 @@ interface RullesProducts {
 }
 
 export const rullesProducts: RullesProducts = {
-  recheios: [
+  bolos: [
     "Quadrado a partir de 2,5kg, se com morango ou ameixa a partir de 3,5kg",
     "Quadrado apenas 2 recheios",
     "Menor bolo 1,2kg, se com morango ou ameixa a partir de 1,5kg",
@@ -61,7 +61,7 @@ export const rullesProducts: RullesProducts = {
 };
 
 export const dataCatalog: DataCatalogProps = {
-  recheios: [
+  bolos: [
     {
       id: "brigadeiro",
       title: "Brigadeiro",
