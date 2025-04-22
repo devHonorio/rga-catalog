@@ -617,6 +617,24 @@ export const dataCatalog: DataCatalogProps = {
       image: "/cardapio/bebidas/monsterzeroultra.png",
     },
     {
+      id: "suco-uva",
+      title: "Suco Del Valle uva 1L",
+      price: 12,
+      image: "/cardapio/bebidas/sucouva.png",
+    },
+    {
+      id: "suco-laranja",
+      title: "Suco Del Valle laranja 1L",
+      price: 12,
+      image: "/cardapio/bebidas/sucolaranja.png",
+    },
+    {
+      id: "suco-maracuja",
+      title: "Suco Del Valle maracuja 1L",
+      price: 12,
+      image: "/cardapio/bebidas/sucomaracuja.png",
+    },
+    {
       id: "agua-com-gas510ml",
       title: "Água com gás 510ml",
       price: 2.5,
