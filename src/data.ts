@@ -13,7 +13,7 @@ interface RullesProducts {
 }
 
 export const rullesProducts: RullesProducts = {
-  recheios: [
+  bolos: [
     "Quadrado a partir de 2,5kg, se com morango ou ameixa a partir de 3,5kg",
     "Quadrado apenas 2 recheios",
     "Menor bolo 1,2kg, se com morango ou ameixa a partir de 1,5kg",
@@ -61,7 +61,7 @@ export const rullesProducts: RullesProducts = {
 };
 
 export const dataCatalog: DataCatalogProps = {
-  recheios: [
+  bolos: [
     {
       id: "brigadeiro",
       title: "Brigadeiro",
@@ -615,6 +615,24 @@ export const dataCatalog: DataCatalogProps = {
       title: "Monster zero ultra 475ml",
       price: 12,
       image: "/cardapio/bebidas/monsterzeroultra.png",
+    },
+    {
+      id: "suco-uva",
+      title: "Suco Del Valle uva 1L",
+      price: 12,
+      image: "/cardapio/bebidas/sucouva.png",
+    },
+    {
+      id: "suco-laranja",
+      title: "Suco Del Valle laranja 1L",
+      price: 12,
+      image: "/cardapio/bebidas/sucolaranja.png",
+    },
+    {
+      id: "suco-maracuja",
+      title: "Suco Del Valle maracuja 1L",
+      price: 12,
+      image: "/cardapio/bebidas/sucomaracuja.png",
     },
     {
       id: "agua-com-gas510ml",
