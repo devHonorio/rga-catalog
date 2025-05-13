@@ -27,12 +27,15 @@ export const rullesProducts: RullesProducts = {
     "Pesam cerca de 2,5kg e recheadas cerca de 3kg",
   ],
   doces: [
+    "Doces tradicionais R$80,00 o cento",
+    "Doces gourmets R$90,00 o cento",
     "25 unidades: até 5 sabores",
     "50 unidades: até 5 sabores",
     "75 unidades: até 5 sabores",
     "100 unidades: até 5 sabores",
   ],
   tortinhas: [
+    "R$85,00 o cento",
     "25 unidades: até 4 sabores",
     "50 unidades: até 4 sabores",
     "75 unidades: até 4 sabores",
@@ -46,6 +49,7 @@ export const rullesProducts: RullesProducts = {
   ],
   morangos: ["10 unidades", "25 unidades", "50 unidades"],
   salgados: [
+    "R$75,00 o Cento",
     "25 unidades: até 3 sabores",
     "30 unidades: até 3 sabores",
     "40 unidades: até 4 sabores",
@@ -566,6 +570,12 @@ export const dataCatalog: DataCatalogProps = {
       title: "Coca cola 2L",
       price: 13,
       image: "/cardapio/bebidas/coca2L.png",
+    },
+    {
+      id: "coca-zero-cola-2l",
+      title: "Coca cola zero 2L",
+      price: 13,
+      image: "/cardapio/bebidas/coca-zero.png",
     },
     {
       id: "sprite-2l",
