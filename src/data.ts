@@ -286,7 +286,7 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "bolo-dois-amoresr",
       title: "Bolo dois amores recheado",
-      price: 45,
+      price: 55,
       description:
         "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Cobertura preta e branca",
     },
