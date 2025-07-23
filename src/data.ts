@@ -20,22 +20,22 @@ export const rullesProducts: RullesProducts = {
     "Redondo de 2 a 3 recheios dependendo do peso e recheios escolhidos",
     "Bento cake 600g dois recheios menos crocante de nozes com suspiro",
     "Com cobertura de KitKat qualquer recheio fica R$50,00 o quilo",
-    "Bolo fake R$40,00 a unidade",
+    "Bolo fake R$50,00 a unidade",
   ],
   "bolos-de-forma": [
     "Rendem 28 a 32 fatias conforme o tamanho que cortar",
     "Pesam cerca de 2,5kg e recheadas cerca de 3kg",
   ],
   doces: [
-    "Doces tradicionais R$80,00 o cento",
-    "Doces gourmets R$90,00 o cento",
+    "Doces tradicionais R$90,00 o cento",
+    "Doces gourmets R$100,00 o cento",
     "25 unidades: até 5 sabores",
     "50 unidades: até 5 sabores",
     "75 unidades: até 5 sabores",
     "100 unidades: até 5 sabores",
   ],
   tortinhas: [
-    "R$85,00 o cento",
+    "R$100,00 o cento",
     "25 unidades: até 4 sabores",
     "50 unidades: até 4 sabores",
     "75 unidades: até 4 sabores",
@@ -49,7 +49,7 @@ export const rullesProducts: RullesProducts = {
   ],
   morangos: ["10 unidades", "25 unidades", "50 unidades"],
   salgados: [
-    "R$75,00 o Cento",
+    "R$80,00 o Cento",
     "25 unidades: até 3 sabores",
     "30 unidades: até 3 sabores",
     "40 unidades: até 4 sabores",
@@ -58,8 +58,8 @@ export const rullesProducts: RullesProducts = {
   ],
   frios: [
     "Sanduíche 20 unidades: até 2 sabores",
-    "Sanduiches sempre de 10 em 10",
-    "Canudo minimo 20 unidades",
+    "Sanduíches sempre de 10 em 10",
+    "Canudo mínimo 20 unidades",
   ],
   bebidas: [],
 };
