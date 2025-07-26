@@ -14,6 +14,7 @@ interface RullesProducts {
 
 export const rullesProducts: RullesProducts = {
   bolos: [
+    "Bolo com morango fica R$50,00 o quilo",
     "Quadrado a partir de 2,5kg, se com morango ou ameixa a partir de 3,5kg",
     "Quadrado apenas 2 recheios",
     "Menor bolo 1,2kg, se com morango ou ameixa a partir de 1,5kg",
@@ -193,7 +194,7 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "bolo-da-casa",
       title: "Bolo da casa",
-      price: 50,
+      price: 55,
       image: "/cardapio/bolos/recheios/bolo-da-casa.jpg",
       description:
         "Massa branca, crocante de nozes com suspiro e strogonoff de morango, não acompanha outros recheios",
@@ -201,7 +202,7 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "bolo-str-morango",
       title: "Bolo de strogonoff de morango",
-      price: 50,
+      price: 55,
     },
     {
       id: "marta-rocha",
@@ -209,7 +210,7 @@ export const dataCatalog: DataCatalogProps = {
       price: 50,
       image: "/cardapio/bolos/recheios/marta-rocha.png",
       description:
-        "Massa mesclada, crocante de nozes com supiro, pode escolher uma fruta entre morago, damasco, pêssego, ameixa",
+        "Com morango R$55,00 o quilo, massa mesclada, crocante de nozes com supiro, pode escolher uma fruta entre morago, damasco, pêssego, ameixa",
     },
   ],
   "bolos-de-forma": [
@@ -455,7 +456,7 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "bombom-de-morango",
       title: "Bombom de morango",
-      price: 2.5,
+      price: 3,
       image: "/cardapio/doces/finos/morango.png",
     },
   ],
