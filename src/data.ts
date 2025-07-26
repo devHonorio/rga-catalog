@@ -14,7 +14,7 @@ interface RullesProducts {
 
 export const rullesProducts: RullesProducts = {
   bolos: [
-    "Bolo com morango fica R$50,00 o quilo",
+    "Bolo com morango fica R$55,00 o quilo",
     "Quadrado a partir de 2,5kg, se com morango ou ameixa a partir de 3,5kg",
     "Quadrado apenas 2 recheios",
     "Menor bolo 1,2kg, se com morango ou ameixa a partir de 1,5kg",
