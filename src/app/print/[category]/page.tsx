@@ -17,6 +17,7 @@ export default async function Category({ params }: CategoryProps) {
 
   const products = dataCatalog[category];
   const rulles = rullesProducts[category] || [];
+
   return (
     <div className="flex flex-col gap-10">
       {rulles.length > 0 && (
@@ -28,11 +29,11 @@ export default async function Category({ params }: CategoryProps) {
           ))}
         </div>
       )}
-
       <div className="flex flex-wrap justify-center gap-14">
         {products.map(({ id, price, image, title, description }) => {
           return (
             <ProductCard
+              className="break-inside-avoid break-after-auto"
               key={id}
               title={title}
               image={image}

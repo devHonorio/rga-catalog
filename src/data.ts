@@ -14,6 +14,7 @@ interface RullesProducts {
 
 export const rullesProducts: RullesProducts = {
   bolos: [
+    "Bolo com morango fica R$55,00 o quilo",
     "Quadrado a partir de 2,5kg, se com morango ou ameixa a partir de 3,5kg",
     "Quadrado apenas 2 recheios",
     "Menor bolo 1,2kg, se com morango ou ameixa a partir de 1,5kg",
@@ -49,7 +50,8 @@ export const rullesProducts: RullesProducts = {
   ],
   morangos: ["10 unidades", "25 unidades", "50 unidades"],
   salgados: [
-    "R$80,00 o Cento",
+    "R$80,00 o Cento frito",
+    "R$75,00 o Cento cru",
     "25 unidades: até 3 sabores",
     "30 unidades: até 3 sabores",
     "40 unidades: até 4 sabores",
@@ -193,7 +195,7 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "bolo-da-casa",
       title: "Bolo da casa",
-      price: 50,
+      price: 55,
       image: "/cardapio/bolos/recheios/bolo-da-casa.jpg",
       description:
         "Massa branca, crocante de nozes com suspiro e strogonoff de morango, não acompanha outros recheios",
@@ -201,7 +203,7 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "bolo-str-morango",
       title: "Bolo de strogonoff de morango",
-      price: 50,
+      price: 55,
     },
     {
       id: "marta-rocha",
@@ -209,7 +211,7 @@ export const dataCatalog: DataCatalogProps = {
       price: 50,
       image: "/cardapio/bolos/recheios/marta-rocha.png",
       description:
-        "Massa mesclada, crocante de nozes com supiro, pode escolher uma fruta entre morago, damasco, pêssego, ameixa",
+        "Com morango R$55,00 o quilo, massa mesclada, crocante de nozes com supiro, pode escolher uma fruta entre morago, damasco, pêssego, ameixa",
     },
   ],
   "bolos-de-forma": [
@@ -394,11 +396,6 @@ export const dataCatalog: DataCatalogProps = {
   ],
   tortinhas: [
     {
-      id: "tortinha-de-brigadeiro",
-      title: "Tortinha de brigadeiro",
-      price: 1,
-    },
-    {
       id: "tortinha-de-morango",
       title: "Tortinha de morango",
       price: 1,
@@ -413,6 +410,12 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "tortinha-de-brigadeiroc",
       title: "Tortinha de brigadeiro com cereja",
+      price: 1,
+      image: "/cardapio/doces/gourmet/tcereja.png",
+    },
+    {
+      id: "tortinha-de-brigadeiro",
+      title: "Tortinha de brigadeiro",
       price: 1,
     },
   ],
@@ -430,12 +433,7 @@ export const dataCatalog: DataCatalogProps = {
       price: 2,
       image: "/cardapio/doces/finos/rafaello.png",
     },
-    {
-      id: "cereja",
-      title: "Bom bom de cereja",
-      price: 2,
-      image: "/cardapio/doces/finos/rafaello.png",
-    },
+
     {
       id: "bombom-de-uva",
       title: "Bombom de uva",
@@ -449,13 +447,24 @@ export const dataCatalog: DataCatalogProps = {
       price: 2,
       image: "/cardapio/doces/finos/damasco.png",
     },
+    {
+      id: "pistache",
+      title: "Bombom de pistache",
+      price: 2,
+      image: "/cardapio/doces/finos/pistache.png",
+    },
+    {
+      id: "cereja",
+      title: "Bom bom de cereja",
+      price: 2,
+    },
   ],
 
   morangos: [
     {
       id: "bombom-de-morango",
       title: "Bombom de morango",
-      price: 2.5,
+      price: 3,
       image: "/cardapio/doces/finos/morango.png",
     },
   ],
@@ -553,7 +562,7 @@ export const dataCatalog: DataCatalogProps = {
       id: "sanduiche-de-salpicao",
       title: "Sanduíche de salpicão",
       price: 1.5,
-      image: "/cardapio/frios/sanduiche-de-salpicao.jpeg",
+      image: "/cardapio/frios/ssalpicao.JPG",
       description: "Maionese, salada, frango e legumes.",
     },
     {

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/header";
 
 import localFont from "next/font/local";
 
@@ -26,11 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br" className="scroll-smooth">
-      <body
-        className={`${roboto.className} ${glacial.variable} mx-auto flex w-4/5 flex-col gap-4 bg-gray-100`}
-      >
-        <Header />
+    <html lang="pt-br" className="scroll-smooth bg-gray-100">
+      <body className={`${roboto.className} ${glacial.variable}`}>
         {children}
       </body>
     </html>
