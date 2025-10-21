@@ -50,7 +50,8 @@ export const rullesProducts: RullesProducts = {
   ],
   morangos: ["10 unidades", "25 unidades", "50 unidades"],
   salgados: [
-    "R$80,00 o Cento",
+    "R$80,00 o Cento frito",
+    "R$75,00 o Cento cru",
     "25 unidades: até 3 sabores",
     "30 unidades: até 3 sabores",
     "40 unidades: até 4 sabores",
@@ -395,11 +396,6 @@ export const dataCatalog: DataCatalogProps = {
   ],
   tortinhas: [
     {
-      id: "tortinha-de-brigadeiro",
-      title: "Tortinha de brigadeiro",
-      price: 1,
-    },
-    {
       id: "tortinha-de-morango",
       title: "Tortinha de morango",
       price: 1,
@@ -414,6 +410,12 @@ export const dataCatalog: DataCatalogProps = {
     {
       id: "tortinha-de-brigadeiroc",
       title: "Tortinha de brigadeiro com cereja",
+      price: 1,
+      image: "/cardapio/doces/gourmet/tcereja.png",
+    },
+    {
+      id: "tortinha-de-brigadeiro",
+      title: "Tortinha de brigadeiro",
       price: 1,
     },
   ],
@@ -431,12 +433,7 @@ export const dataCatalog: DataCatalogProps = {
       price: 2,
       image: "/cardapio/doces/finos/rafaello.png",
     },
-    {
-      id: "cereja",
-      title: "Bom bom de cereja",
-      price: 2,
-      image: "/cardapio/doces/finos/rafaello.png",
-    },
+
     {
       id: "bombom-de-uva",
       title: "Bombom de uva",
@@ -449,6 +446,17 @@ export const dataCatalog: DataCatalogProps = {
       title: "Bombom de damasco",
       price: 2,
       image: "/cardapio/doces/finos/damasco.png",
+    },
+    {
+      id: "pistache",
+      title: "Bombom de pistache",
+      price: 2,
+      image: "/cardapio/doces/finos/pistache.png",
+    },
+    {
+      id: "cereja",
+      title: "Bom bom de cereja",
+      price: 2,
     },
   ],
 
@@ -554,7 +562,7 @@ export const dataCatalog: DataCatalogProps = {
       id: "sanduiche-de-salpicao",
       title: "Sanduíche de salpicão",
       price: 1.5,
-      image: "/cardapio/frios/sanduiche-de-salpicao.jpeg",
+      image: "/cardapio/frios/ssalpicao.JPG",
       description: "Maionese, salada, frango e legumes.",
     },
     {
