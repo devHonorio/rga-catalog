@@ -34,3 +34,9 @@ export default async function Layout({ children, params }: Layout) {
     </div>
   );
 }
+
+export async function generateStaticParams() {
+  return categorysName.map((category) => ({
+    category,
+  }));
+}

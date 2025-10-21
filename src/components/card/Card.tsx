@@ -22,7 +22,7 @@ interface CardImageProps {
 }
 export const CardImage = ({ image, title }: CardImageProps) => {
   return (
-    <div className="mx-auto h-52 w-52 rounded-3xl">
+    <div className="mx-auto h-full max-h-52 w-full max-w-52 rounded-3xl">
       <Image
         priority
         alt={title}

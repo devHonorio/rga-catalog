@@ -12,15 +12,17 @@ interface ProductCardProps {
   image?: string;
   price: number;
   description?: string;
+  className?: string;
 }
 export const ProductCard = ({
   title,
   image,
   price,
   description,
+  className,
 }: ProductCardProps) => {
   return (
-    <Card>
+    <Card className={className}>
       {image && <CardImage image={image} title={title} />}
 
       <CardTitle>{title}</CardTitle>
