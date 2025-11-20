@@ -152,12 +152,6 @@ export const dataCatalog: DataCatalogProps = {
       image: "/cardapio/bolos/recheios/avela.png",
     },
     {
-      id: "alpino",
-      title: "Alpino",
-      price: 46,
-      image: "/cardapio/bolos/recheios/alpino.jpg",
-    },
-    {
       id: "ameixa",
       title: "Strogonoff de ameixa",
 
