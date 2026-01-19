@@ -218,12 +218,6 @@ export const dataCatalog: DataCatalogProps = {
         "Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
     },
     {
-      id: "toalha-felpuda",
-      title: "Toalha felpuda",
-      price: 55,
-      image: "/cardapio/bolos/bolos-de-forma/toalha-felpuda.png",
-    },
-    {
       id: "bolo-de-cenoura",
       title: "Bolo de cenoura",
       price: 55,
@@ -499,13 +493,6 @@ export const dataCatalog: DataCatalogProps = {
       title: "Perola de queijo",
       price: 0.8,
       image: "/cardapio/salgados/perola.png",
-    },
-
-    {
-      id: "trouxinha-de-ricota",
-      title: "Trouxinha de ricota",
-      price: 0.8,
-      image: "/cardapio/salgados/trouxinha.png",
     },
     {
       id: "coxinha-de-frango",
