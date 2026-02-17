@@ -20,7 +20,6 @@ export const rullesProducts: RullesProducts = {
     "Menor bolo 1,2kg, se com morango ou ameixa a partir de 1,5kg",
     "Redondo de 2 a 3 recheios dependendo do peso e recheios escolhidos",
     "Bento cake 600g dois recheios menos crocante de nozes com suspiro",
-    "Com cobertura de KitKat qualquer recheio fica R$50,00 o quilo",
     "Bolo fake R$50,00 a unidade",
   ],
   "bolos-de-forma": [
@@ -104,13 +103,6 @@ export const dataCatalog: DataCatalogProps = {
       title: "Pêssego",
       price: 38,
       image: "/cardapio/bolos/recheios/pessego.jpg",
-    },
-
-    {
-      id: "doce-de-leite",
-      title: "Doce de Leite",
-      price: 38,
-      image: "/cardapio/bolos/recheios/doce-de-leite.jpg",
     },
     {
       id: "nozes",
@@ -299,12 +291,6 @@ export const dataCatalog: DataCatalogProps = {
       title: "Beijinho",
       price: 0.9,
       image: "/cardapio/doces/tradicionais/beijinho.png",
-    },
-    {
-      id: "coco-queimado",
-      title: "Coco queimado",
-      price: 0.9,
-      image: "/cardapio/doces/tradicionais/queimado.png",
     },
     {
       id: "leite-ninho",
