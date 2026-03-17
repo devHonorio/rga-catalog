@@ -206,30 +206,26 @@ export const dataCatalog: DataCatalogProps = {
       title: "Nega maluca",
       price: 55,
       image: "/cardapio/bolos/bolos-de-forma/nega-maluca.jpeg",
-      description:
-        "Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
+      description: "Escolher cobertura entre, brigadeiro, avelã, leite ninho.",
     },
     {
       id: "bolo-de-cenoura",
       title: "Bolo de cenoura",
       price: 55,
       image: "/cardapio/bolos/bolos-de-forma/bolo-de-cenoura.jpeg",
-      description:
-        "Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
+      description: "Escolher cobertura entre, brigadeiro, avelã, leite ninho.",
     },
     {
       id: "bolo-de-fuba",
       title: "Bolo de fubá",
       price: 55,
-      description:
-        "Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
+      description: "Escolher cobertura entre, brigadeiro, avelã, leite ninho.",
     },
     {
       id: "bolo-formigueiro",
       title: "Bolo formigueiro",
       price: 55,
-      description:
-        "Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
+      description: "Escolher cobertura entre, brigadeiro, avelã, leite ninho.",
     },
     {
       id: "bolo-doi-amores",
@@ -242,35 +238,35 @@ export const dataCatalog: DataCatalogProps = {
       title: "Nega maluca recheada",
       price: 70,
       description:
-        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
+        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite. Escolher cobertura entre, brigadeiro, avelã, leite ninho.",
     },
     {
       id: "bolo-de-cenourar",
       title: "Bolo de cenoura recheado",
       price: 70,
       description:
-        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
+        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite. Escolher cobertura entre, brigadeiro, avelã, leite ninho.",
     },
     {
       id: "bolo-de-fubar",
       title: "Bolo de fubá recheado",
       price: 70,
       description:
-        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
+        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite. Escolher cobertura entre, brigadeiro, avelã, leite ninho.",
     },
     {
       id: "bolo-formigueiror",
       title: "Bolo formigueiro recheado",
       price: 70,
       description:
-        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Escolher cobertura entre, brigadeiro, avelã, leite ninho, alpino.",
+        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite. Escolher cobertura entre, brigadeiro, avelã, leite ninho.",
     },
     {
       id: "bolo-dois-amoresr",
       title: "Bolo dois amores recheado",
       price: 70,
       description:
-        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite e alpino. Cobertura preta e branca",
+        "Recheios a escolher, prestígio, beijinho, brigadeiro, avelã, quatro leite. Cobertura preta e branca",
     },
   ],
   doces: [
@@ -413,13 +409,6 @@ export const dataCatalog: DataCatalogProps = {
       title: "Bombom de uva",
       price: 2,
       image: "/cardapio/doces/finos/uva.png",
-    },
-
-    {
-      id: "bombom-de-damasco",
-      title: "Bombom de damasco",
-      price: 2,
-      image: "/cardapio/doces/finos/damasco.png",
     },
     {
       id: "pistache",
