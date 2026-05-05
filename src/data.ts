@@ -106,7 +106,7 @@ export const dataCatalog: DataCatalogProps = {
     },
     {
       id: "nozes",
-      title: "Strogonoff nozes",
+      title: "Nozes",
       price: 46,
       image: "/cardapio/bolos/recheios/nozes.jpg",
     },
@@ -274,7 +274,7 @@ export const dataCatalog: DataCatalogProps = {
       id: "doces-mistos",
       title: "Doces mistos",
       price: 0.9,
-      image: "/cardapio/doces/tradicionais/mistos.png",
+      image: "/cardapio/doces/tradicionais/mistos2.png",
     },
     {
       id: "brigadeiro",
